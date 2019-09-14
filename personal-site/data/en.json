@@ -1,7 +1,8 @@
 {
-    "welcome": "Welcome",
-    "logo": "Logo",
-    "home": "Home",
-    "about": "About",
-    "not_found": "404 - Page Not Found"
+  "welcome": "Welcome",
+  "home": "Home",
+  "about": "About",
+  "project": "Project",
+  "writing": "Writing",
+  "not_found": "404 - Page Not Found"
 }
