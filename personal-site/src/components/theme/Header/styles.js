@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import color from '../../../../data/colors';
+import colors from '../../../../data/colors';
 
 export const StyledHeader = styled.div`
-  background: ${color.base};
+  background: ${colors.base};
 `;
 
 export const Navbar = styled.div`
@@ -16,11 +16,23 @@ export const Links = styled.div`
   display: flex;
   align-items: center;
   a {
-    color: ${color.grey1};
+    color: ${colors.primary};
     text-decoration: none;
     font-weight: 400;
     font-size: 24px;
     margin: 0 1rem;
     outline: none;
+    border: 1px solid ${colors.primary};
+    border-radius: 6px 12px;
+    padding: 10px;
+
+    :hover {
+      color: ${colors.base};
+      background: linear-gradient(
+        to right,
+        ${colors.primary},
+        ${colors.secondary}
+      );
+    }
   }
 `;
