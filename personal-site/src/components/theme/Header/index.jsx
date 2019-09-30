@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import { FormattedMessage } from 'react-intl';
 import { Context, Container } from '../../common';
 import SelectLanguage from './SelectLanguage';
-import { Navbar, Links, StyledHeader } from './styles';
+import { Navbar, Links, StyledHeader, Separator } from './styles';
 
 const Header = () => {
 	return (
@@ -15,12 +15,15 @@ const Header = () => {
 							<Link to="/">
 								<FormattedMessage id="home" />
 							</Link>
+							<Separator>X</Separator>
 							<Link to="/about">
 								<FormattedMessage id="about" />
 							</Link>
+							<Separator>X</Separator>
 							<Link to="/project">
 								<FormattedMessage id="project" />
 							</Link>
+							<Separator>X</Separator>
 							<Link to="/writing">
 								<FormattedMessage id="writing" />
 							</Link>

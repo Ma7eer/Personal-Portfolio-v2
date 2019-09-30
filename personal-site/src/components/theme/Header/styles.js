@@ -22,8 +22,8 @@ export const Links = styled.div`
     font-size: 24px;
     margin: 0 1rem;
     outline: none;
-    border: 1px solid ${colors.primary};
-    border-radius: 6px 12px;
+
+    border-radius: 10px;
     padding: 10px;
 
     :hover {
@@ -35,4 +35,10 @@ export const Links = styled.div`
       );
     }
   }
+`;
+// border: 1px solid ${colors.primary};
+
+export const Separator = styled.span`
+  color: ${colors.grey3};
+  font-weight: bold;
 `;
